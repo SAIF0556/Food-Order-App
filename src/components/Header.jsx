@@ -1,5 +1,6 @@
 import React from 'react'
 import logoImg from '../assets/logo.jpg'
+import Button from './UI/Button'
 import '../index.css'
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
           <h1 id="title">My Blog</h1>
         </div>
         <nav>
-          <button>Cart(0)</button>
+          <Button textOnly>Cart(0)</Button>
         </nav>
       </header>
     </>
