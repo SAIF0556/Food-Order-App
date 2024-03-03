@@ -249,6 +249,22 @@ h1 {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
+.error {
+  width: 50%;
+  text-align: center;
+  background-color: #f8d7da; /* Light shade of red */
+  border: 1px solid #f5c6cb; /* Medium shade of red */
+  color: #721c24; /* Dark shade of red */
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.error h2 {
+  font-weight: bold;
+}
+
 @keyframes fade-slide-up {
   from {
     opacity: 0;
